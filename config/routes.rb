@@ -9,7 +9,7 @@ Rails.application.routes.draw do
 
   get 'blogs/thumb_image:text'
 
-  get 'pages/home'
+  root 'pages#home'
 
   get 'pages/titles'
 
